@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<script type="text/javascript">
+	function decode(a) {
+	  return a.replace(/[a-zA-Z]/g, function(c){
+	    return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) 
+	                               ? c : c - 26);
+	  })
+	};
+	function openMailer(element) {
+		window.location.href = "mailto:theambient@ya.ru?subject=I want Russian birthday song";
+	};
+</script>
+<body>
+<div id="main">
+	<h1>Ruslan's Birthday Services</h1>
+	<p>Have birthday and got tired from the boring English BS? Call us and get the best BS forever!
+
+	<p> We offer best Russian birthday song sang by true Russians, see it in action:
+
+	<table id="table1" style="width:100%">
+		<tr>
+			<th>Traditional</th>
+			<th>Customised</th>
+		</tr>
+		<tr>
+			<td>
+				<div style="width:100%; height:0; position: relative; padding-bottom:56.25%"><iframe src="https://ruslan.videomarketingplatform.co/v.ihtml/player.html?token=b5072fdca9029fb7d535ccf8e891680e&source=embed&photo%5fid=69794360" style="width:100%; height:100%; position: absolute; top: 0; left: 0;" frameborder="0" border="0" scrolling="no" mozallowfullscreen="1" webkitallowfullscreen="1" allowfullscreen="1" allow="autoplay; fullscreen"></iframe></div>
+			</td>
+			<td>
+				<div style="width:100%; height:0; position: relative; padding-bottom:56.25%"><iframe src="https://ruslan.videomarketingplatform.co/v.ihtml/player.html?token=e2f7821a30dcf8ac171217e0bc932882&source=embed&photo%5fid=69794579" style="width:100%; height:100%; position: absolute; top: 0; left: 0;" frameborder="0" border="0" scrolling="no" mozallowfullscreen="1" webkitallowfullscreen="1" allowfullscreen="1" allow="autoplay; fullscreen"></iframe></div>
+			</td>
+		</tr>
+	</table>
+
+
+	<div id="outer">
+		<div id="inner">
+			<button class="button-success pure-button"  onclick='openMailer(this);'>Order now</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>

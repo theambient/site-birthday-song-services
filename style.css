@@ -1,0 +1,37 @@
+body {
+	font-family: 'Varela', sans-serif;
+}
+
+h1 {
+	text-align:center;
+	margin-bottom: 50px;
+}
+
+#main {
+	width:90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#table1 {
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+.button-success {
+    background: rgb(30, 201, 91);
+    color: white;
+    font-size: 125%;
+    /* this is a green */
+}
+
+#inner {
+  /*border: 1px solid black;*/
+}
+
+#outer {
+  /*border: 1px solid red;*/
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
